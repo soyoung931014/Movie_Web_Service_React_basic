@@ -28,7 +28,7 @@ function App() {
    type="number"
    onChange={onChangeFunction} //데이터를 업데이트한다. // onchange함수의 주요 포인트는 데이터를 업데이트 해주는 것이다.
    />
-  {/* 이제 우리는 통제되는(controlled)input을 가지고 있고(19열) event 리스닝도 하고있어 */}
+  {/* 이제 우리는 통제되는(controlled)input을 가지고 있고(25열) event 리스닝도 하고있어 */}
   </div>
 
 
