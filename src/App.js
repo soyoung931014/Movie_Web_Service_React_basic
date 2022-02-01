@@ -33,7 +33,10 @@ function App() {
   useEffect(() => {
     console.log('i run when <counter> changes')
   }, [counter])
-
+  
+  useEffect(() => {
+    console.log('i run when <counter><keyword> changes')
+  }, [counter, keyword])
   return (
     <div>   
       <input 
